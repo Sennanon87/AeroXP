@@ -472,20 +472,24 @@ form[role="dialog"] .DialogFooter {
 	box-shadow: none !important;
 }
 ._170Npw5h84elypMSQ8zNDI {
-    position: absolute;
 	/*
     background: linear-gradient(0deg, #E2EAF9, #DFE9F5 65%, #FBFDFF 90%) !important;
 	border: 1px solid #8492A6 !important;
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5)) !important;
 	*/
-	left: -689px !important;
-    top: 22px !important;
     border-radius: 3px !important; 
 	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6)) !important;
     background: linear-gradient(180Deg, transparent, transparent calc(100% - 59px), #ABB8C9 calc(100% - 59px), #ABB8C9 calc(100% - 58px), #fff calc(100% - 58px), #E2EAF9), linear-gradient(#FCFEFF, #E8F1FB 11px, #DCE6F4 11px, #DCE7F5, #E4EFFB 23px, #ABB8C9 23px, #ABB8C9 24px, #EFF5FA 24px, #EFF5FA) !important;
     border: 1px solid #ABB8C9 !important;
     padding-top: 32px !important;
 }
+
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7._1v65xCmMo53Ju6vCXk4U0_ .Woh0kBQCmatzC1daBX9i6 {
+    margin-left: -706px;
+    margin-top: 23px;
+    background: transparent !important;
+}
+
 ._170Npw5h84elypMSQ8zNDI ._2DTdZVPQmiXaVGuTTpV7Ai {
     color: forestgreen !important;
     font-weight: 100 !important;
