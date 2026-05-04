@@ -161,6 +161,25 @@
 		  }
 		}
 	  },
+	   "Library Text Transparency": {
+		"description": "Change the transparency of the library text headers.",
+		"tab": "Theme",
+		"default": "Transparent",
+		"values": {
+		  "Transparent": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "Themes/TransparentText.css"
+			}
+		  },
+		  "WhiteGradient": {
+			"TargetCss": {
+			  "affects": [".*"],
+			  "src": "Themes/FullWhiteText.css"
+			}
+		  }
+		}
+	  },
 	  "Bottom Buttons Style": {
 		"description": "Change the style of the bottom buttons.",
 		"tab": "General",
@@ -316,6 +335,23 @@
 		  }
 		}
 	  },
+	  	"Show What's New Games": {
+		"default": "no",
+		"description": "Shows the game buttons in the What's New Page.",
+		"tab": "Theme",
+		"values": {
+		  "no": {
+			"TargetCss": {
+			  "affects": [".*"],  "src": ""
+			}
+		  },
+		  "yes": {
+			"TargetCss": {
+			  "affects": [".*"], "src": "Themes/WhatsNewShow.css"
+			}
+		  }
+		}
+	  },
 	  	"Reorder toolbars": {
 		"default": "no",
 		"description": "Moves the navigation bar above the menu bar.",
@@ -387,7 +423,4 @@
 	}
 
 }
-
-
-
 
