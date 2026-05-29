@@ -3519,6 +3519,21 @@ body.responsive_page ._1XLRr8eh1ip-E17C8Jzrmc {
 
 /*Settings*/
 
+.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
+    background: transparent !important;
+    padding-inline: 6px !important;
+    padding-block: 6px !important;
+    transition: unset !important;
+    transform: none !important;
+    animation: unset !important;
+    margin: 2px !important;
+}
+
+._3Vl2zkYPoCpw1q_1n28D3z {
+    border-radius: 0px !important;
+    background: transparent !important;
+}
+
 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after, .eKmEXJCm_lgme24Fp_HWt._39x36zDuDr8Z0Z_UnJkY4S::after {
     background: linear-gradient(90Deg, transparent, #6399ff73, #a6c6ef, #6399ff73, transparent) !important;
 }
@@ -4667,15 +4682,15 @@ input[type="radio"]:hover:active,
 	background-position-y: -21px !important;
 	background-color: #021a41b8 !important;
 }
-input[type="radio"][checked],
+input[type="radio"]:checked,
 ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
     background-position-y: -42px !important;
 }
-input[type="radio"][checked]:hover,
+input[type="radio"]:checked:hover,
 ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF:hover {
     background-position-y: -63px !important;
 }
-input[type="radio"][checked]:hover:active,
+input[type="radio"]:checked:hover:active,
 ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF:hover:active {
     background-position-y: -84px !important;
 }
@@ -5606,4 +5621,22 @@ form[role="dialog"] .DialogHeader {
 
 .BasicUIContextMenu.uWT-cMCXkxiyxcSs9UA-0 {
     background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*PLUGIN COMPATIBILITY*/
+
+/*Extendium*/
+
+.extensions-bar-container .extensions-bar {
+    border: none !important;
+    border-radius: 0px !important;
+    transition: none !important;
+    background: transparent !important;
+}
+
+.extensions-bar-container .extension-button:hover {
+    border: var(--wmp-button-border-hover) !important;
+    background-image: var(--wmp-button-face-hover) !important;
+    box-shadow: var(--wmp-button-shadow-hover) !important;
+    border-radius: 0px !important;
 }

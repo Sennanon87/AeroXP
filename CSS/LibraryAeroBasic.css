@@ -2743,6 +2743,21 @@ body.responsive_page ._1XLRr8eh1ip-E17C8Jzrmc {
 
 /*Settings*/
 
+.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
+    background: transparent !important;
+    padding-inline: 6px !important;
+    padding-block: 6px !important;
+    transition: unset !important;
+    transform: none !important;
+    animation: unset !important;
+    margin: 2px !important;
+}
+
+._3Vl2zkYPoCpw1q_1n28D3z {
+    border-radius: 0px !important;
+    background: transparent !important;
+}
+
 ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR {
     display: none !important;
 }
@@ -5969,7 +5984,7 @@ button.DialogButton.Disabled:not(.responsive_page button.DialogButton, #responsi
     height: unset !important;
     width: unset !important;
     margin-block: auto !important;
-	padding-left: 64px !important;
+	padding-left: 6px !important;
 }
 
 /*sliders to check boxes*/
@@ -6094,7 +6109,7 @@ input[type="radio"][disabled]:hover:active,
 	background-position: var(--themed-radio-background-disabled-position) !important;
 }
 
-input[type="radio"][checked],
+input[type="radio"]:checked,
 .RadioButton[aria-checked="true"],
 .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q {
 	background-repeat: no-repeat !important;
@@ -6102,7 +6117,7 @@ input[type="radio"][checked],
 	background-size: var(--themed-radio-checked-background-base-size) !important;
 	background-position: var(--themed-radio-checked-background-base-position) !important;
 }
-input[type="radio"][checked]:hover,
+input[type="radio"]:checked:hover,
 .RadioButton[aria-checked="true"]:hover,
 .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q:hover {
 	background-repeat: no-repeat !important;
@@ -6110,7 +6125,7 @@ input[type="radio"][checked]:hover,
 	background-size: var(--themed-radio-checked-background-hover-size) !important;
 	background-position: var(--themed-radio-checked-background-hover-position) !important;
 }
-input[type="radio"][checked]:hover:active,
+input[type="radio"]:checked:hover:active,
 .RadioButton[aria-checked="true"]:hover:active,
 .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q:hover:active {
 	background-repeat: no-repeat !important;
@@ -6118,9 +6133,9 @@ input[type="radio"][checked]:hover:active,
 	background-size: var(--themed-radio-checked-background-pressed-size) !important;
 	background-position: var(--themed-radio-checked-background-pressed-position) !important;
 }
-input[type="radio"][checked][disabled],
-input[type="radio"][checked][disabled]:hover,
-input[type="radio"][checked][disabled]:hover:active,
+input[type="radio"]:checked[disabled],
+input[type="radio"]:checked[disabled]:hover,
+input[type="radio"]:checked[disabled]:hover:active,
 .RadioButton.disabled[aria-checked="true"],
 .RadioButton.disabled[aria-checked="true"]:hover,
 .RadioButton.disabled[aria-checked="true"]:hover:active,
@@ -7175,4 +7190,22 @@ div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz
 
 .BasicUIContextMenu.uWT-cMCXkxiyxcSs9UA-0 {
     background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*PLUGIN COMPATIBILITY*/
+
+/*Extendium*/
+
+.extensions-bar-container .extensions-bar {
+    border: none !important;
+    border-radius: 0px !important;
+    transition: none !important;
+    background: transparent !important;
+}
+
+.extensions-bar-container .extension-button:hover {
+	border: var(--wmp-button-border-hover) !important;
+    background-image: var(--wmp-button-face-hover) !important;
+    box-shadow: var(--wmp-button-shadow-hover) !important;
+    border-radius: 3px !important;
 }
