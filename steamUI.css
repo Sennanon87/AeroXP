@@ -2200,7 +2200,7 @@ body, body._2LxgdMcpWJRjkxZKbmeEEb {
 	color: green !important;
 }
 
-/*SPecial offers*/
+/*Special offers*/
 
 ._31Kkeb6BIUOVu8QL-dgtY-.DialogContent::before {
     content: "Special Offers";
@@ -2218,4 +2218,21 @@ body, body._2LxgdMcpWJRjkxZKbmeEEb {
     top: -15px;
     z-index: 9;
     left: -4px;
+}
+
+
+
+/*PLUGIN COMPATIBILITY*/
+
+/*Extendium*/
+
+.extensions-bar-container {
+    order: -1;
+    margin-right: 0px !important;
+}
+.extensions-bar-container .extension-button svg {
+    color: transparent !important;
+    width: 16px !important;
+    height: 16px !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKcSURBVDhPjVJNSFRRFP7uve/feTMp5t8gllOaQRgGRdgPQatahLWqoEW1cRFmCgUF0a4QIaKkglqU0CqzTW1rWZDWQqnBILHRwRydedO857y/2x2ZbDELO4/7zr3343znnO8egv+wjsHXRxghzwPwRnF8K4J6podOeCWMln4bmSrTUdOQ4hKl1AuC4xy4VYY2JmgbeKUqEjNNQ4OuyVBVBeBoKMMbEySHe4qWXRzyRFTE1CFaCTgPb5RhVGjQMTgeF5VepQIJOULhbD8M6+L1sQuaqCK1sJwpOu5DUFpDOP9WQdA+MN53bG/r3WhEQ9ZxseoGKLgh3DCELXzB9deW7YXwLLtQ0YIoz6OqBKJIUES/iqHCiAivKZBVGbKuQNU04XVQiTgVBCQEdzkBpwwBpXBEE5kikC5yLIYU2UBCgUqAroIyBqm190VMlqXbsqYkCpZ903ccL+9yZCwfC7ki8l6AIBRqSwzeSg7u4lKSMKbq8foWQohOdl55+a7rUOfh6piB5NcU5uaX89FEsxkyCZSHQisCJvZevoClz1P3Z0ZOXypVuqN/7Fro+XlyYOh9rmN/Z3Qx+xsOlUFKmQo21tKWJOYcTFWRnZlF+tPUvrnRix9LBH+Npn+kk3NZG36VCWs2hfSHL5AIgSqeTNFUKLoGSQhqxuvg+35fOQ7xM4/vNZ97OkzqTz2oExme6FEjYc3/uh543uau8ycfmQ21CIr++qRQRYH1cwHzE9MZwqi8pXtPNDUxna+Yg9jRO73dl8+OxJrq4K0K+ddnjYOKVqiorvQxg2Hy2Zulimd0chZtrjbQ1iRjW0ME2xuryiuCRLWMrTUSWmoY2moBgwq+ctw/a+/v2XVw91hkU9VK4Aflywrjsqroycnk9z88vvrLdX6eBQAAAABJRU5ErkJggg==);
 }
