@@ -679,6 +679,7 @@ body.fullheight.ModalDialogBody.DesktopUI .title-bar-actions.window-controls {
     font-weight: 100 !important;
     font-size: 12px !important;
     padding-inline: 0px !important;
+    box-sizing: border-box !important;
 }
 ._19axKcqYRuaJ8vdYKYmtTQ {
     padding-block: 11px;

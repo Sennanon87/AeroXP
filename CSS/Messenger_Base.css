@@ -56,7 +56,7 @@ html.client_chat_frame body, html.web_chat_frame body {
     display: none !important;
 }
 
-.friendsui-container.client_chat_frame .title-area-icon.closeButton.windowControlButton:first-child:last-child {
+.title-area-icon.closeButton.windowControlButton:first-child:last-child {
     background-image: url("data:image/png;base64,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") !important;
     width: 45px !important;
     height: 20px !important;
@@ -64,10 +64,10 @@ html.client_chat_frame body, html.web_chat_frame body {
 	transition: unset !important;
 	background-color: transparent !important;
 }
-.friendsui-container.client_chat_frame .title-area-icon.closeButton.windowControlButton:first-child:last-child:hover {
+.title-area-icon.closeButton.windowControlButton:first-child:last-child:hover {
     background-position: 0px -20px !important;
 }
-.friendsui-container.client_chat_frame .title-area-icon.closeButton.windowControlButton:first-child:last-child:hover:active {
+.title-area-icon.closeButton.windowControlButton:first-child:last-child:hover:active {
     background-position: 0px -40px !important;
 }
 
@@ -122,13 +122,22 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .TitleBar.title-area.chatTitleBar::before {
-    content: '';
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM1SURBVDhPXVNpbExRFP7ufe/dmemilDFoyBCNKlKxZBBLQ3QIESK2tAm1pEKDRoRE4gcJ9ccSayU0EVu0sUfaUmppiS0mpRFLFUVmylTLDGreu859rf5wkvPOO8t37rnfvZfhP3F7M7JgWX5D1zMlQ7qKMYm6P7FYFTgvb2oIVNiFHdLZIMmT4ZU6z5dSLmeMdVExsox8O88YYpbELwIUsZi1vyUYaFBxrj4Oj8/7C2Jbm6mvNyGSYjCY0t8xDUsXL8Lt8jN49bRSP3V0tzSciTmqVmE6G1iMr5JMz7Gg0zIaTIusqWFTwXLs2LIWZ85eRm7eRnx4/zHx1aPLHldc/CwLLF9hmaP3xKkS8hxjPEGNS1ND2e7JSXhyoxhbCw8ifVB/ZE704cCR0xiZkQYRlxBZsa6QKMJcmsDI4kwkMFqdMwMaF7b19k2xm4VCXzBt6gQMHZyKJdmzUXGjBuN9w+MVhrB+PmbksLXCcELXBAzdQWAdTuHC9CnjkJSYgJ7unnj8pBav69/h/KVKjPONQOPHJrs+zhmfyYNfvhuM08oKTEFlp0wajQVzJsPpFNhQsAy379VizYZCuFxO5OflYHfRhfZ6XQxhV64/Mqsf1PGyqsf4/DmMlYtnIHfhZPRLccMiLjhtQ0nL9yhaWiPYvrcEpVeqaatcMo42FjPNIOV7NH+L8FC4FcUnLyluUZA3D316dbfBh09XYt/xCoSamm1fcQNIS+PaU2aa8hh5MzmHWyWbW6N4WPsWN2/dx+Z12fCv3IuX9Z9UypYOMJ2U+mKXdrAmWucfk5bqTk5Mj0TbiDgX2ujKnb1ajbsvgrj7rAHcIYhwpYatXAhpGXpEGmK7Fq2vCZc2Jg/IGpU64k7gjevw8YsoKb+PpdkzcPRaAL/ptC29HQhBTUilYTAmxL6vV7cd0tRYXXyzGkOtPz0pnq4DB6UNdGSOzcCesgDehn+0g9QEpMzp6GhinNBcjp2RQPm3dopJPHnFXlMzc9L6dFv94lNzNwo51AnQbumX7qZUDws/CFCkWdr+YFGu/Zg6G/yT5E0lWVTqNzQ+nqDDCMup6nnMlFXkl4V3zL/WUUoC/AW4VS2C/DeI+gAAAABJRU5ErkJggg==");
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: 11px;
-    left: 8px;
+ .activeTab .TabSearchButton::after {
+  content: "Search Friends";
+  position: absolute;
+  left: 90px;
+  bottom: 6px;
+  font-style: italic;
+  opacity: 1;
+  pointer-events: none;
+  color: #AAAAAA;
+  font-family: Tahoma !important;
+  
+  /* Esto hace que si el botón se reduce, el texto se comprima y se oculte con elegancia */
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+}
 }
 
 .TitleBar.title-area.chatTitleBar::after {
@@ -155,14 +164,44 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .ChatTabs .title-bar-actions.window-controls {
-    position: relative !important;
-    top: -8px !important;
-    right: -4px !important;
+    position: fixed !important;
+    top: 1px !important;
+    right: 6px !important;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: none !important;
+    z-index: 100 !important;
+}
+
+.ChatTabs .title-bar-actions.window-controls .title-area-icon.windowControlButton {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.title-bar-actions.window-controls {
+    position: fixed !important;
+    top: 1px !important;
+    right: 6px !important;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: none !important;
+    z-index: 10000 !important;
+}
+
+.title-bar-actions.window-controls .title-area-icon.windowControlButton {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 .ChatTabs .title-area {
     min-height: 24px !important;
-    top: -23px !important;
+    top: 0px !important;
+    right: 0px !important;
+    overflow: visible !important;
 }
 
 .xSTLmzylFJdIfak7ZdhuA .uyoPtKbi4K01XGuYF5-C_ {
@@ -427,7 +466,7 @@ html.client_chat_frame body, html.web_chat_frame body {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAASVSURBVEhL1ZRbbBRVGMf/s7Nz2e6lO+1uC/QGdhtaCqQUBATBGKMNRiBBWoq8SEJIEGOMkYSCkWjgyaiPPprAg9o0PjQxBgyJiIqXQLHbCrLdltKUdu+zM7O3uTqznRQ2PLCv/JI9Z885/3O+fN/5z8EzD2H3FRy59HqosanhQ4/HtSfDZ713x6O/Rm7d+zr9UPxB+FmVbVlVkHa/zO7zG5tCne2Xtm3YcaC9vquWIA1XXhbWCry4L5sQF8iVxpgyZ9jqp+Ow+0c4iBM+t2/XRtc27GT7sLv5VWzatBmtnS0ud13NKYIw2mxlVVQE2PhBe60iKy8oilounsNwwEP4Ue8PwCwZuBX+Dop19tryqqgIkJeKTE4oOpLpBMbE3/CffhNz6hRyOR5uxoW6YC1YL0vb8qqouIOadkdB1bQtTA21FYwOicqCV9KIJxMoFIrIidJ8LB77QgjLcXvLU6kIIEyWjFWbAzOKqvbqhN5CUw7o5nyhIEMSpdxCbOHCP5/Pji6pq+OJS966btscBfbm/NyCkcnwcOgk8mIOCw8WY7Tm+9OWVU3Fd3D8zPF64znpyzyZPWDa0+2tdcPhpCCIElgHrTGEe1qO+s4s/j57LRAIDJi/QYqmu61DVFWdTKVS38ZiseHR0dHE0omPBTh24qSL3VD67OU3dp5sc69ByVBQhIR8sWCuUmhgG0CTTly/dT314Erq/pHBtzb39PQsbTZRFAXhyUmMDA9fiUQi746MjESs+eUSqQFxb9vO4HFuBYcSI4OinKhzNqLVG0KztwkEBfDFDKSIXH/29Jnlw7ePbEL7xWZTT6HXnDt1+vRroVDoq4GBgaC1Xg7w5tH+erpNP8ZyFBVN3MW/0m3ck8OYVSOYU6YwrdzBlBLGjb9uoO/5vfD7/da2MjotYk2w0R4BnM+HQ/39r9Rx3KA1LgcoOHLrVW9ut5CRkE6mIGazyOZ5pLUkknoMKTUFocAjH9XQ2/uoLBYUaDjB2CMgJRXRvX4DOI47ZI2dViPSqV3eko9Jp3gwtOkh2QVN1WFohnnJJFRFhlxUQUhLrt460gOSLYAyWKwLdqCGrEHfjzugEaadSxr+2D8GhmW7LG05g7xT2E57GMxE72NxPm6IgghRFJHP51CUCqZN8+bXLMEwljyRzifBUX74GC9oJ424GoNAJMEbCfDysoHKlDNIP0wVGWcnJm7P6uu3dxGshzXtRUBXDeikAU03M6FIGJ6ll/rv/mm4XLRZHKDvpy0QVQHX99yD5TeJt1qgVCrdsfpyBjPfx89ffH/0vbFvoh8n76enaIZB48ogWte0oLWjGatWr4Sf80MN5jERDoMzD49LCgRrM2HASswKnStoWOV3YWJiAplM5rvystU8BgkPulwBsruuyR9avbal1e1104tzMWE+ujjj4NnY2wNH3/nk3LkXXW43ZnkJh395CZlSAtfMDBrMzAtmKT89f+Hq9PT04eHh4cp6VcPBgwc7hj46e3l8fNzQNM1Yxvw/GQ4bQ0NDly2NLX8ig6rYt39/sLGhofxUMAzTbc2ZNZ9MJpNPPBXPOsD/iXMBTSGcSJQAAAAASUVORK5CYII=") !important;
 }
 .activeTab .TabSearchButton::after {
-    content: "Search Friends";
+    content: "";
     position: absolute;
     left: 103px;
     bottom: 6px;
@@ -487,6 +526,9 @@ html.client_chat_frame body, html.web_chat_frame body {
 .chatTabSetContainer.inclient {
     position: relative !important;
     bottom: -1px !important;
+    min-height: 40px !important;
+    height: 40px !important;
+    overflow: visible !important;
 }
 
 .HorizontalMiniSlider {
@@ -1044,4 +1086,37 @@ button.VoiceToggle.Active svg {
     right: 0px;
     top: 10px !important;
     font-weight: 700;
+}
+/* Keep one title label and make the ChatTabs window caption fully draggable. */
+html.client_chat_frame .TitleBar.title-area.chatTitleBar::after,
+html.web_chat_frame .TitleBar.title-area.chatTitleBar::after {
+    content: none !important;
+}
+
+html.client_chat_frame .titleBarContainer.ChatTabs .TitleBar.title-area.chatTitleBar,
+html.web_chat_frame .titleBarContainer.ChatTabs .TitleBar.title-area.chatTitleBar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+    height: 30px !important;
+    min-height: 30px !important;
+    max-height: 30px !important;
+    box-sizing: border-box !important;
+    -webkit-app-region: drag !important;
+    z-index: 9999 !important;
+}
+
+html.client_chat_frame .titleBarContainer.ChatTabs .TitleBar.title-area.chatTitleBar::after,
+html.web_chat_frame .titleBarContainer.ChatTabs .TitleBar.title-area.chatTitleBar::after {
+    content: 'Steam Messenger' !important;
+    pointer-events: none !important;
+}
+
+html.client_chat_frame .title-bar-actions.window-controls,
+html.web_chat_frame .title-bar-actions.window-controls,
+html.client_chat_frame .title-area-icon.windowControlButton,
+html.web_chat_frame .title-area-icon.windowControlButton {
+    -webkit-app-region: no-drag !important;
 }

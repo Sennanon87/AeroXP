@@ -37,6 +37,8 @@
 }
 
 .titleBarContainer.ChatTabs {
+    position: relative !important;
+    overflow: visible !important;
     background-color: #fff !important;
     border: none !important;
     box-shadow: none !important;
@@ -153,7 +155,12 @@
     border-top-right-radius: 5px !important;
     box-shadow: inset 1px 0px 0px #fff, inset -1px 0px 0px #fff, inset 0px 1px 0px #fff !important;
 	padding-left: 4px !important;
-	height: 28px !important;
+	width: 190px !important;
+	min-width: 190px !important;
+	max-width: 190px !important;
+	height: 40px !important;
+	min-height: 40px !important;
+	max-height: 40px !important;
 }
 ._2XZq-_f6npaQdAgeRzKIkz:not(._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_) {
     border: 1px solid #A0AFC3 !important;
@@ -164,10 +171,61 @@
     background-image: linear-gradient(#dbf9fc, #a4dbe3 50%, #94bcc9) !important;
 }
 
+._2XZq-_f6npaQdAgeRzKIkz {
+    box-sizing: border-box !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+    align-items: center !important;
+    overflow: hidden !important;
+}
+
 ._1HNpQBKKKQ1tG2OZH3CSsh {
-    color: #5f5f5f !important;
-    font-size: 12px !important;
+    color: #008000 !important;
+    font-size: 11px !important;
     font-family: var(--gui-font) !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: clip !important;
+    line-height: 12px !important;
+}
+
+body .titleBarContainer.ChatTabs,
+body .titleBarContainer.ChatTabs .chatTabSetContainer.inclient {
+    overflow: visible !important;
+}
+
+body .titleBarContainer.ChatTabs .chatTabSetContainer.inclient {
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: none !important;
+}
+
+body .titleBarContainer.ChatTabs :has(._2XZq-_f6npaQdAgeRzKIkz) {
+    height: auto !important;
+    min-height: 40px !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+body .titleBarContainer.ChatTabs .chatTabSetContainer.inclient ._2XZq-_f6npaQdAgeRzKIkz {
+    box-sizing: border-box !important;
+    width: 190px !important;
+    min-width: 190px !important;
+    max-width: 190px !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+body .titleBarContainer.ChatTabs .chatTabSetContainer.inclient ._1HNpQBKKKQ1tG2OZH3CSsh {
+    display: block !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    line-height: 12px !important;
+    white-space: nowrap !important;
 }
 
 .chatTabSelector {
@@ -304,11 +362,21 @@
 	padding-right: 300px !important;
 }
 
-._113iuw_HlE_qSgt9cGWCSv {
-    min-height: 172px !important;
+._113iuw_HlE_qSgt9cGWCSv,
+.chatWindow textarea,
+textarea._113iuw_HlE_qSgt9cGWCSv {
+    min-height: 42px !important;
+    height: 102px;
+    max-height: 70vh !important;
+    resize: vertical !important;
+    overflow-y: auto !important;
 	font-family: var(--gui-font) !important;
     color: #000 !important;
     font-size: 12px !important;
+}
+
+._113iuw_HlE_qSgt9cGWCSv::-webkit-resizer {
+    display: block !important;
 }
 
 .chatWindow .chatEntry::after {
@@ -381,4 +449,164 @@
     border-radius: 5px !important;
     background: linear-gradient(#E1F6FC, #BFDBFC) !important;
     box-shadow: inset 0px 2px 0px #ffffff7d !important;
+}
+
+/* ==========================================================================
+   Dialogs / Invitar amigos (CreateChatDialog, FriendPicker)
+   ========================================================================== */
+
+/* Fondo del dialogo */
+.CreateChatDialog,
+.DialogContent.CreateChatDialog,
+.ModalDialogPopup .CreateChatDialog {
+    background: #FAFCFE !important;
+    box-sizing: border-box !important;
+    padding-bottom: 14px !important;
+}
+
+.CreateChatDialog .DialogContent_InnerWidth,
+.CreateChatDialog .DialogBody {
+    background: transparent !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/* Titulo del dialogo legible con estilo AeroXP */
+.CreateChatDialog .DialogHeader,
+.ModalDialogPopup .CreateChatDialog .DialogHeader,
+.DialogContent.CreateChatDialog .DialogHeader {
+    color: #1e395b !important;
+    font-family: var(--gui-font) !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-shadow: none !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+/* Subtitulo del dialogo ("Invita a amigos a chatear...") */
+.CreateChatDialog .DialogSubHeader,
+.ModalDialogPopup .CreateChatDialog .DialogSubHeader,
+.DialogContent.CreateChatDialog .DialogSubHeader {
+    color: #444444 !important;
+    font-family: var(--gui-font) !important;
+    font-size: 12px !important;
+    text-shadow: none !important;
+    margin-bottom: 8px !important;
+}
+
+.CreateChatDialog .DialogSubHeader .DialogHighlight,
+.ModalDialogPopup .CreateChatDialog .DialogSubHeader .DialogHighlight,
+.DialogContent.CreateChatDialog .DialogSubHeader .DialogHighlight {
+    color: #0066cc !important;
+    font-weight: 600 !important;
+}
+
+/* Etiqueta de la seccion ("Invitar Al Chat De Grupo") */
+.CreateChatDialog .DialogLabel,
+.CreateChatDialog label,
+.FriendPicker .DialogLabel {
+    color: #2D3537 !important;
+    font-family: var(--gui-font) !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+/* Cuadro de busqueda de amigos: recuadro blanco sin nada */
+.FriendPicker ._DialogInputContainer,
+.FriendPicker .DialogListBuilderInput {
+    background: #ffffff !important;
+    border: 1px solid #B5BDC0 !important;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 2px !important;
+    min-height: 24px !important;
+    padding: 3px 6px !important;
+}
+
+.FriendPicker ._DialogInputContainer:focus-within,
+.FriendPicker ._DialogInputContainer.Active {
+    border-color: #3399ff !important;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 0px 3px rgba(51, 153, 255, 0.5) !important;
+}
+
+.FriendPicker input,
+.FriendPicker .DialogListBuilderInput_Input {
+    background: transparent !important;
+    color: #000000 !important;
+    font-family: var(--gui-font) !important;
+    font-size: 12px !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/* Quitar el texto por defecto (placeholder) en la busqueda de amigos */
+.FriendPicker input::placeholder,
+.FriendPicker input::-webkit-input-placeholder,
+.FriendPicker .DialogInputPlaceholder,
+.FriendPicker .DialogListBuilderInput_Input::placeholder,
+.FriendPicker [placeholder]::placeholder {
+    color: transparent !important;
+    opacity: 0 !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* Lista de amigos en FriendPicker */
+.CreateChatDialog .FriendPicker .FriendPickerFriendList,
+.CreateChatDialog .FriendPickerFriendList {
+    max-height: 250px !important;
+    overflow-y: auto !important;
+}
+
+.FriendPicker .friend .playerName {
+    color: #000000 !important;
+    font-family: var(--gui-font) !important;
+    font-size: 12px !important;
+}
+
+.FriendPicker .friend.offline .playerName {
+    color: #444444 !important;
+}
+
+.FriendPicker .friend.online .playerName {
+    color: #000000 !important;
+}
+
+.FriendPicker .friend.ingame .playerName,
+.FriendPicker .friend.ingame .gameName {
+    color: #1a7a1a !important;
+}
+
+.FriendPicker .friend .playerNickname,
+.FriendPicker .friend .statusAndName .richPresenceLabel {
+    color: #666666 !important;
+    font-size: 11px !important;
+}
+
+.FriendPicker_SuggestedFriend:hover,
+.FriendPicker_SuggestedFriend.Hover,
+.FriendPicker_SuggestedFriend.Focus {
+    outline: 1px solid #A9C9F6 !important;
+    outline-offset: -1px !important;
+    border-radius: 3px !important;
+    background: linear-gradient(#E1F6FC, #BFDBFC) !important;
+    box-shadow: inset 0px 1px 0px #ffffff7d !important;
+}
+
+/* Botones de abajo subidos para que se vean */
+.CreateChatDialog .DialogFooter,
+.ModalDialogPopup .CreateChatDialog .DialogFooter {
+    position: relative !important;
+    bottom: 14px !important;
+    margin-top: 6px !important;
+    padding-top: 4px !important;
+    padding-bottom: 6px !important;
+    z-index: 10 !important;
+}
+
+.CreateChatDialog .DialogFooter button.DialogButton {
+    min-height: 24px !important;
+    height: 24px !important;
+    font-size: 11px !important;
+    font-family: var(--gui-font) !important;
+    cursor: default !important;
 }
